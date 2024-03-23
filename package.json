@@ -1,0 +1,26 @@
+{
+  "name": "encurtador_url",
+  "version": "1.0.0",
+  "description": "Encurtador url project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --exit-child --respawn --transpile-only src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/shortid": "^0.0.32",
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
+    "@typescript-eslint/parser": "^7.3.1",
+    "eslint": "^8.57.0",
+    "express": "^4.19.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "shortid": "^2.2.16"
+  }
+}
